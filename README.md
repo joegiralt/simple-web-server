@@ -9,9 +9,7 @@ by adding `servy` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [
-    {:servy, "~> 0.1.0"}
-  ]
+  [{:servy, "~> 0.1.0"}]
 end
 ```
 
