@@ -1,6 +1,10 @@
 {application,servy,
-             [{applications,[kernel,stdlib,elixir,logger]},
+             [{applications,[kernel,stdlib,elixir,logger,poison]},
               {description,"servy"},
-              {modules,['Elixir.Servy','Elixir.Servy.Handler']},
+              {modules,['Elixir.Servy','Elixir.Servy.Api.BearController',
+                        'Elixir.Servy.Bear','Elixir.Servy.BearController',
+                        'Elixir.Servy.Conv','Elixir.Servy.Handler',
+                        'Elixir.Servy.HttpServer','Elixir.Servy.Parser',
+                        'Elixir.Servy.Plugins','Elixir.Servy.Wildthings']},
               {registered,[]},
               {vsn,"0.1.0"}]}.
